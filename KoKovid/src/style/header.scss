@@ -1,0 +1,57 @@
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    &__container {
+        height: 114px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__name-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 18px;
+        line-height: 21 / 18 * 100%;
+    }
+
+    &__button {
+        background-color: #4285f4;
+        &:hover {
+            background: #1d70f5;
+            transition: all 0.3s ease;
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+
+    flex: 1 0 auto;
+    padding: 0 160px 0 20px;
+    &__list {
+        max-width: 346px;
+        display: flex;
+        flex-basis: 346px;
+        justify-content: space-between;
+    }
+
+    &__item {
+        font-family: "Raleway";
+        font-size: 10px;
+        line-height: 12 / 10 * 100%;
+        font-weight: bold;
+        color: #000;
+        letter-spacing: 0.14em;
+        color: inherit;
+        transition: color 0.3s ease 0s;
+        &:hover {
+            color: #ec5863;
+        }
+    }
+}

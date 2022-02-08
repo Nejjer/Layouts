@@ -1,0 +1,113 @@
+//for buttons, images, default title, text, etc
+
+.text {
+    font-size: 12px;
+    line-height: 139%;
+    letter-spacing: 0.08em;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #616161;
+}
+
+.title {
+    font-size: 44px;
+    line-height: 126%;
+    font-weight: 700;
+    color: #000;
+}
+
+.span-blue {
+    color: #4285f4;
+}
+
+.span-red {
+    color: #ec5863;
+}
+
+//Очень важная штука, позволяющая работать ищображению как фон
+._ibg {
+    position: relative;
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 144px;
+    max-width: 144px;
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 10px;
+    color: #fcfdfe;
+    letter-spacing: 0.14em;
+    line-height: 12 / 10 * 100%;
+    height: 40px;
+    background: #ec5863;
+    border-radius: 5px;
+    &:hover {
+        background: #ec323f;
+        transition: all 0.3s ease;
+    }
+}
+
+.square {
+    background: #ec5863;
+    border-radius: 30px;
+    z-index: -1;
+}
+.__147px {
+    height: 147px;
+    width: 147px;
+}
+.__127px {
+    height: 127px;
+    width: 127px;
+}
+.__96px {
+    height: 96px;
+    width: 96px;
+}
+.__77px {
+    height: 77px;
+    width: 77px;
+}
+.__65px {
+    border-radius: 16px;
+    height: 65px;
+    width: 65px;
+}
+
+.element-animation {
+    $animation-speed: 0.5s;
+    &.animation-opacity {
+        opacity: 0;
+    }
+    &.animation-transform-y {
+        transform: translateY(20%);
+    }
+    &.animation-transform-x {
+        transform: translateX(20%);
+    }
+
+    &.element-show {
+        &.animation-opacity {
+            opacity: 1;
+            transition: all $animation-speed ease 0s;
+        }
+        &.animation-transform-y {
+            transform: translateY(0);
+            transition: all $animation-speed ease 0s;
+        }
+        &.animation-transform-x {
+            transform: translateX(0);
+            transition: all $animation-speed ease 0s;
+        }
+    }
+}

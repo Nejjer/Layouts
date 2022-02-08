@@ -1,0 +1,133 @@
+.text {
+  font-size: 12px;
+  line-height: 139%;
+  letter-spacing: 0.08em;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: #616161;
+}
+
+.title {
+  font-size: 44px;
+  line-height: 126%;
+  font-weight: 700;
+  color: #000;
+}
+
+.span-blue {
+  color: #4285f4;
+}
+
+.span-red {
+  color: #ec5863;
+}
+
+._ibg {
+  position: relative;
+}
+
+._ibg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 144px;
+      flex-basis: 144px;
+  max-width: 144px;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 10px;
+  color: #fcfdfe;
+  letter-spacing: 0.14em;
+  line-height: 120%;
+  height: 40px;
+  background: #ec5863;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #ec323f;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.square {
+  background: #ec5863;
+  border-radius: 30px;
+  z-index: -1;
+}
+
+.__147px {
+  height: 147px;
+  width: 147px;
+}
+
+.__127px {
+  height: 127px;
+  width: 127px;
+}
+
+.__96px {
+  height: 96px;
+  width: 96px;
+}
+
+.__77px {
+  height: 77px;
+  width: 77px;
+}
+
+.__65px {
+  border-radius: 16px;
+  height: 65px;
+  width: 65px;
+}
+
+.element-animation.animation-opacity {
+  opacity: 0;
+}
+
+.element-animation.animation-transform-y {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+
+.element-animation.animation-transform-x {
+  -webkit-transform: translateX(20%);
+          transform: translateX(20%);
+}
+
+.element-animation.element-show.animation-opacity {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.element-animation.element-show.animation-transform-y {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.element-animation.element-show.animation-transform-x {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}

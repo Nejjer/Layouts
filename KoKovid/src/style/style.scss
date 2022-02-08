@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&family=Rubik:wght@400;700&display=swap");
+
+$minWidth: 320px;
+$maxWidth: 1057px;
+$maxWidthContainer: 1057px;
+//брейкпоинты
+//https://youtu.be/vkq7ckCkvjY?t=9345 палит весь свой файл
+$md1: $maxWidthContainer + 12px;
+$md2: 991.98px;
+$md3: 767.98px;
+$md4: 479.98px;
+
+$fontFamily: "Rubik";
+
+@import "ui";
+@import "header";
+@import "footer";
+@import "page";
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+//це селектор все у кого есть name__container получат
+[class*="__container"] {
+    max-width: $maxWidthContainer;
+    margin: 0 auto;
+    @media (max-width: $md1) {
+        max-width: 750px;
+    }
+    @media (max-width: $md2) {
+        max-width: none;
+        padding: 0 10px;
+    }
+}
+
+body {
+    font-family: $fontFamily;
+}
+
+.page {
+    flex: 1 1 auto;
+}
