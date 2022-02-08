@@ -1,0 +1,21 @@
+.hello {
+  padding: 0px 0px 104px 0px;
+}
+
+.hello__content {
+  padding: 40px 0px 54px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.hello__name {
+  font-size: 47px;
+  line-height: 57px;
+}

@@ -1,0 +1,77 @@
+.title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 122.22222%;
+  color: #070707;
+}
+
+.text {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 116.66667%;
+  color: #070707;
+}
+
+.lang-selector {
+  font-size: 16px;
+  z-index: -1;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  color: #828282;
+}
+
+.lang-selector .active {
+  color: #070707;
+}
+
+.lang-selector a {
+  color: inherit;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.lang-selector a:hover {
+  color: #070707;
+}
+
+.btn {
+  padding: 7px 0px 0px 0px;
+  display: block;
+  color: #fff;
+  background: #070707;
+  height: 42px;
+  width: 180px;
+  border-radius: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ibg {
+  position: relative;
+}
+
+.ibg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}

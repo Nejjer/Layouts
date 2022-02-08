@@ -1,7 +1,55 @@
 //for buttons, images, default title, text, etc
+.title {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 22 / 18 * 100%;
+    color: #070707;
+}
 
+.text {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21 / 18 * 100%;
+    color: #070707;
+}
+
+.lang-selector {
+    font-size: 16px;
+    z-index: -1;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: #828282;
+    .active {
+        color: #070707;
+    }
+    a {
+        color: inherit;
+        transition: color 0.3s ease;
+    }
+
+    a:hover {
+        color: #070707;
+    }
+}
+
+.btn {
+    padding: 7px 0px 0px 0px;
+    display: block;
+    color: #fff;
+    background: #070707;
+    height: 42px;
+    width: 180px;
+    border-radius: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 //Очень важная штука, позволяющая работать ищображению как фон
-._ibg {
+.ibg {
     position: relative;
     img {
         position: absolute;
@@ -10,5 +58,6 @@
         top: 0;
         left: 0;
         object-fit: cover;
+        object-position: top;
     }
 }

@@ -3,13 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <title>Denis</title>
-    <link rel="stylesheet" href="src/style/index.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <div class="wrapper">
-    <header class="header"></header>
-    <main class="page"></main>
-    <footer class="footer"></footer>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__content">
+                <div class="header__menu menu">
+                    <div class="menu__icon icon-menu ">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="menu__body ">
+                        <ul class="menu__list">
+                            <li><a href="#" class="menu__item title active">Home</a></li>
+                            <li><a href="#" class="menu__item title">About me</a></li>
+                            <li><a href="#" class="menu__item title">Skills</a></li>
+                            <li><a href="#" class="menu__item title">Portfolio</a></li>
+                            <li><a href="#" class="menu__item title">Contacts</a></li>
+                        </ul>
+                        <nav class="lang-selector title"><a href="">RU</a> | <a href="" class="active">ENG</a></nav>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="page">
+        <section class="hello">
+            <div class="hello__container">
+                <div class="hello__content">
+                    <h2 class="hello__name title">Denis <br> Novik</h2>
+                    <div class="hello__info text">UX | UI designer <br> 24 years old, Minsk</div>
+                    <nav class="lang-selector title"><a href="">RU</a> | <a href="" class="active">ENG</a></nav>
+                </div>
+                <div class="hello__image ibg">
+                    <img src="/src/image/page/photo.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about__container">
+                <div class="about__content">
+                    <h3 class="about__title title">About me</div>
+                    <p class="about__text text">Hi, I'm Denis – UX/UI designer from Minsk. 
+I'm interested in design and everything connected with it.</p>
+                    <p class="about__text text">I'm studying at courses "Web and mobile design 
+interfaces" in IT-Academy.</p>
+                    <p class="about__text text">Ready to implement excellent projects
+ with wonderful people.</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="skills__container">
+                <div class="skills__content">
+                    <div class="skills__title title">Skills</div>
+                    <div class="skills__text text">I work in such programs as</div>
+                    <ul class="skills__program-list">
+                        <li class="skills__program">
+                            <img src="./src/image/skills/ps.svg" alt="">
+                            <div class="skills__program-name text">Adobe
+Photoshop</div>
+                            <ul class="skills__rating">
+                                <li><div class="_icon-star"></div></li>
+                                <li><div class="_icon-star"></div></li>
+                                <li><div class="_icon-star"></div></li>
+                                <li><div class="_icon-star"></div></li>
+                                <li><div class="_icon-star unstar"></div></li>
+                            </ul>
+                        </li>
+                        <li class="skills__program">
+                            <img src="./src/image/skills/ai.svg" alt="">
+                            <div class="skills__program-name text">Adobe
+Photoshop</div>
+                            <ul class="skills__rating">
+                                <li><div class="_icon-star"></div></li>
+                                <li><div class="_icon-star"></div></li>
+                                <li><div class="_icon-star"></div></li>
+                                <li><div class="_icon-star unstar"></div></li>
+                                <li><div class="_icon-star unstar"></div></li>
+                            </ul>
+                        </li>
+                        <li class="skills__program">
+                            <img src="./src/image/skills/ae.svg" alt="">
+                            <div class="skills__program-name text">Adobe
+Photoshop</div>
+                            <ul class="skills__rating">
+                                <li><div class="_icon-star"></div></li>
+                                <li><div class="_icon-star"></div></li>
+                                <li><div class="_icon-star"></div></li>
+                                <li><div class="_icon-star"></div></li>
+                                <li><div class="_icon-star unstar"></div></li>
+                            </ul>
+                        </li>
+                        <li class="skills__program">
+                            <img src="./src/image/skills/figma.svg" alt="">
+                            <div class="skills__program-name text">Adobe
+Photoshop</div>
+                            <ul class="skills__rating">
+                                <li><div class="_icon-star"></div></li>
+                                <li><div class="_icon-star"></div></li>
+                                <li><div class="_icon-star"></div></li>
+                                <li><div class="_icon-star"></div></li>
+                                <li><div class="_icon-star unstar"></div></li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="portfolio__container">
+                <div class="portfolio__content">
+                    <div class="portfolio__title title">Portfolio</div>
+                    <ul class="portfolio__list">
+                        <li class="portfolio__item">
+                            <div class="portfolio__img">
+                                <img src="./src/image/portfolio/1.jpg" alt="">
+                            </div>
+                            <a href="#" class="portfolio__work-name text">Online fashion store - Homepage</a>
+                        </li>
+                         <li class="portfolio__item">
+                            <div class="portfolio__img">
+                                <img src="./src/image/portfolio/2.jpg" alt="">
+                            </div>
+                            <a href="#" class="portfolio__work-name text">Online fashion store - Homepage</a>
+                        </li>
+                         <li class="portfolio__item">
+                            <div class="portfolio__img">
+                                <img src="./src/image/portfolio/3.jpg" alt="">
+                            </div>
+                            <a href="#" class="portfolio__work-name text">Online fashion store - Homepage</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__title title">Contacts</div>
+                <div class="footer__text text">Want to know more or just chat? 
+You are welcome!</div>
+                <div class="footer__btn btn text">Send message</div>
+                <div class="footer__social-list">
+                    <div class="_icon-linkedin"></div>
+                    <div class="_icon-insta"></div>
+                    <div class="_icon-be"></div>
+                    <div class="_icon-dribble"></div>
+                </div>
+                <div class="footer__ps text">Like me on <br>
+LinkedIn, Instagram, Behance, Dribble</div>
+            </div>
+        </div>
+    </footer>
 </div>
 </body>
 </html>

@@ -1,0 +1,53 @@
+.footer {
+    &__container {
+    }
+
+    &__content {
+        padding: 122px 0px 125px 0px;
+        @media (max-width: $md3) {
+            padding: 90px 0px 115px 0px;
+        }
+        max-width: 342px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+    }
+
+    &__text {
+        @media (max-width: $md3) {
+            padding: 43px 0px 45px 0px;
+        }
+        padding: 35px 0;
+        max-width: 275px;
+        text-align: center;
+    }
+
+    &__btn {
+        @media (max-width: $md3) {
+            width: 100%;
+        }
+    }
+
+    &__social-list {
+        padding: 85px 0px 50px 0px;
+        @media (max-width: $md3) {
+            padding: 48px 0px 54px 0px;
+        }
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 40px;
+    }
+
+    &__ps {
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+
+        color: #828282;
+    }
+}
