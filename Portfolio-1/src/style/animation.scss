@@ -1,0 +1,24 @@
+.element-animation {
+    $speed-animation: 0.5s;
+    &.animation-opacity {
+        opacity: 0;
+    }
+    &.animation-transform-y {
+        transform: translateY(20%);
+    }
+    &.animation-transform-x {
+        transform: translateX(20%);
+    }
+    &.element-show {
+        transition: all $speed-animation ease 0s;
+        &.animation-opacity {
+            opacity: 1;
+        }
+        &.animation-transform-y {
+            transform: translateY(0);
+        }
+        &.animation-transform-x {
+            transform: translateX(0);
+        }
+    }
+}
