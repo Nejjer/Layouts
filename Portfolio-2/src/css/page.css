@@ -1,0 +1,28 @@
+.hello {
+  padding: 209px 0px 0px 0px;
+}
+
+.hello__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hello__title {
+  padding: 44px 0px 0px 0px;
+  max-width: 506px;
+  font-size: 54px;
+  line-height: 64px;
+}
+
+.hello__text {
+  max-width: 400px;
+  padding: 45px 0px 90px 0px;
+}
+
+.hello__photo img {
+  border-radius: 50%;
+}

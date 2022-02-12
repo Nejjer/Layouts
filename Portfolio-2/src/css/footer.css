@@ -1,0 +1,36 @@
+.footer {
+  height: 120px;
+  border-top: 1px solid #696969;
+  padding: 48px 0px 48px 0px;
+}
+
+.footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__copyright {
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.footer__copyright span {
+  color: #ececec;
+}
+
+.footer__social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 293px;
+      flex-basis: 293px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #959595;
+  font-size: 22px;
+}
