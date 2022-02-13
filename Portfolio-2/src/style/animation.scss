@@ -1,0 +1,32 @@
+.element-animation {
+    $speed-animation: 0.5s;
+    &.animation-opacity {
+        opacity: 0;
+    }
+    &.animation-transform-y-negative {
+        transform: translateY(20%);
+    }
+    &.animation-transform-y-positive {
+        transform: translateY(-20%);
+    }
+    &.animation-transform-x-negative {
+        transform: translateX(20%);
+    }
+    &.animation-transform-x-positive {
+        transform: translateX(-20%);
+    }
+    &.element-show {
+        transition: all $speed-animation ease 0s;
+        &.animation-opacity {
+            opacity: 1;
+        }
+        &.animation-transform-y-negative,
+        &.animation-transform-y-positive {
+            transform: translateY(0);
+        }
+        &.animation-transform-x-negative,
+        &.animation-transform-x-positive {
+            transform: translateX(0);
+        }
+    }
+}

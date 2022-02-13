@@ -1,0 +1,42 @@
+.element-animation.animation-opacity {
+  opacity: 0;
+}
+
+.element-animation.animation-transform-y-negative {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+
+.element-animation.animation-transform-y-positive {
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+}
+
+.element-animation.animation-transform-x-negative {
+  -webkit-transform: translateX(20%);
+          transform: translateX(20%);
+}
+
+.element-animation.animation-transform-x-positive {
+  -webkit-transform: translateX(-20%);
+          transform: translateX(-20%);
+}
+
+.element-animation.element-show {
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.element-animation.element-show.animation-opacity {
+  opacity: 1;
+}
+
+.element-animation.element-show.animation-transform-y-negative, .element-animation.element-show.animation-transform-y-positive {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.element-animation.element-show.animation-transform-x-negative, .element-animation.element-show.animation-transform-x-positive {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}

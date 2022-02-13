@@ -1,0 +1,39 @@
+.covibe__content {
+  margin: 128px 0px 0px 0px;
+}
+
+.covibe__title {
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #dedede;
+  opacity: 0.7;
+  padding: 0px 0px 25px 0px;
+}
+
+.covibe__text {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+  color: #dedede;
+}
+
+.covibe__name {
+  font-size: 32px;
+  line-height: 48px;
+  max-width: 344px;
+}
+
+.covibe__info {
+  padding: 124px 0px 0px 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.covibe__item {
+  width: 162px;
+}
