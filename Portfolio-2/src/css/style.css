@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&display=swap");
-@import url("/src/css/index.css");
-@import url("/src/style/icons.css");
+@import url("index.css");
+@import url("../style/icons.css");
 .title {
   font-weight: bold;
   font-size: 36px;
