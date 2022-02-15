@@ -10,14 +10,14 @@ $md2: 991.98px;
 $md3: 767.98px;
 $md4: 479.98px;
 
-@import url("./src/css/index.css");
+@import url("/src/css/index.css");
 @import "ui";
 @import "header";
 @import "page";
 @import "footer";
 @import "fonts";
 @import "animation";
-@import url("./src/style/icons.css");
+@import url("/src/style/icons.css");
 
 $fontFamily: "Gilroy";
 

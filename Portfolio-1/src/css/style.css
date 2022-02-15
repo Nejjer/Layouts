@@ -1,5 +1,5 @@
-@import url("./src/css/index.css");
-@import url("./src/style/icons.css");
+@import url("/src/css/index.css");
+@import url("/src/style/icons.css");
 .title {
   font-family: "Gilroy";
   font-style: normal;
