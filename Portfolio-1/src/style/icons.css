@@ -1,8 +1,7 @@
 @font-face {
   font-family: "icons";
-  src: url("/src/icons-fonts/icons.ttf?ba8c8o") format("truetype"),
-    url("/src/icons-fonts/icons.woff?ba8c8o") format("woff"),
-    url("/src/icons-fonts/icons.svg?ba8c8o#icons") format("svg");
+  src: url("../icons-fonts/icons.ttf?ba8c8o") format("truetype"), url("../icons-fonts/icons.woff?ba8c8o") format("woff"),
+    url("../icons-fonts/icons.svg?ba8c8o#icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
