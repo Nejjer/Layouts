@@ -1,0 +1,46 @@
+/*Обнуление*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+/*--------------------*/
+
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+.page {
+    min-height: 100%;
+    overflow: hidden;
+    padding: 60px;
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list {
+    padding: 45px;
+    border-radius: 15px;
+    background-color: #323b49;
+}
+.list__item {
+    margin: 15px 0px 15px 0px;
+    background-color: #2c3440;
+    border-radius: 8px;
+}
+.list__item a {
+    display: block;
+    padding: 30px;
+
+    color: #29a19c;
+    text-decoration: none;
+    font-size: 36px;
+}
